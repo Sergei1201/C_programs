@@ -26,7 +26,7 @@ int main(void)
     circumference = findCircumference(radius);
     area = findArea(radius);
     printf("The circumference is: %.2lf\n", circumference);
-    printf("The area is: %2.lf\n", area);
+    printf("The area is: %lf\n", area);
     return 0;
 }
 
